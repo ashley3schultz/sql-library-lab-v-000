@@ -1,6 +1,6 @@
 INSERT INTO series (title, author_id, subgenre_id) VALUES
-('The Themis Files' 1, 1),
-('The Passage Tilogy');
+('The Themis Files', 1, 1),
+('The Passage Tilogy', 2, 2);
 
 INSERT INTO books (title, year, series_id) VALUES
 ('Sleeping Giants', 2016, 1),
