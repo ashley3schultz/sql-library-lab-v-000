@@ -1,4 +1,4 @@
-INSERT INTO series (title, author_id, subgenre_id) VALUES 
+INSERT INTO series (title, author_id, subgenre_id) VALUES
 ('The Themis Files' 1, 1),
 ('The Passage Tilogy');
 
@@ -20,10 +20,10 @@ INSERT INTO characters (name, species, motto, series_id, author_id) VALUES
 ('name7', 'species7', 'motto7', 2, 2),
 ('name8', 'species8', 'motto8', 2, 2);
 
-INSERT INTO subgenres ()
+INSERT INTO subgenres (name) VALUES
 ('Science Fiction'),
-('Justin Cronin');
+('American Fantasy Fiction');
 
-INSERT INTO authors ()
-(Sylvain Neuvel),
-();
+INSERT INTO authors (name) VALUES
+('Sylvain Neuvel'),
+('Justin Cronin');
